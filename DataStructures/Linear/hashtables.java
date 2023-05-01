@@ -99,12 +99,12 @@ public class hashtables {
     public static void main(String[] args) {
         HashTable map = new HashTable(100);
 
-        map.set("ashik",40);
-        map.set("ashik",50);
-        map.set("chinmay",60);
+        map.set("sam",40);
+        map.set("sam",50);
+        map.set("david",60);
     
-        System.out.println(map.get("ashik"));
-        System.out.println(map.remove("ashik"));
-        System.out.println(map.get("chinmay"));
+        System.out.println(map.get("sam"));
+        System.out.println(map.remove("sam"));
+        System.out.println(map.get("david"));
     }
 }
