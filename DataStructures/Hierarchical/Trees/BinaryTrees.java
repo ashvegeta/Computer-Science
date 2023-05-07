@@ -26,6 +26,7 @@ class binaryTree {
 
     binaryTree(int elem) {
         this.root = new TreeNode(elem);
+        this.count += 1;
     }
 
     int size() {
@@ -202,7 +203,7 @@ class binaryTree {
         int val = 0, temp = 0;
 
         if (root == null || node == null || (node != root && (parent = getParent(root, node)) == null)) {
-            System.out.println("DeletionError: node doesn't exist or cant delete null node");
+            System.out.println("\nDeletionError: node doesn't exist or cant delete null node");
             System.exit(-1);
             return -1;
         }
