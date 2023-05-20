@@ -16,8 +16,9 @@
    - Paging
 6. Computer Networking
 7. DBMS
-8. Cloud Computing
-9. Machine Learning, Deep Learning and AI
+8. Cyber Security
+9. Cloud Computing
+10. Machine Learning, Deep Learning and AI
 
 <!-- Tools and Technologies -->
 
