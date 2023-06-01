@@ -8,6 +8,9 @@ public class targetSum {
             return false;
 
         for (int num : arr) {
+            if (num == 0)
+                continue;
+
             if (canSum(target - num, arr) == true)
                 return true;
         }
@@ -26,6 +29,9 @@ public class targetSum {
         int remainder;
 
         for (int num : arr) {
+            if (num == 0)
+                continue;
+
             remainder = target - num;
 
             if (canSum(remainder, arr) == true) {
