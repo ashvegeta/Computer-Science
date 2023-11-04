@@ -20,7 +20,7 @@ class Graph {
 
     void addEdge(int a, int b) {
         if (a == b) {
-            System.out.println("Cant add adge between same nodes\n");
+            System.out.println("Cant add edge between same nodes\n");
             return;
         }
 
@@ -47,7 +47,7 @@ class Graph {
 
 public class AdjacencyList {
     public static void main(String[] args) {
-        Graph g = new Graph(5); // here paramter 0 suggests bi-directional graph
+        Graph g = new Graph(5);
 
         g.addEdge(0, 4);
         g.addEdge(1, 2);
