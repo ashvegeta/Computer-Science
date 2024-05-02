@@ -8,6 +8,7 @@ public class Zalgorithm {
         int left = 0, right = 0;
 
         for (int i = 1; i < S.length(); i++) {
+            // if currently outside the old z-box, initiate a new z-box at position i
             if (i > right) {
 
                 left = right = i;
