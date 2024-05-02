@@ -1,0 +1,78 @@
+Designing a messaging application which tests the fundamentals of networking, API developement and FrontEnd Design. 
+
+Tech stack:
+	1. Core Backend API - Golang (gRPC, channelsm go routines etc)
+	2. FrontEnd - a js framework (React or NextJs)
+	3. User and storage - PostreSQL
+
+Features:
+	(IMP) 1. User Registration and Authentication:**
+	   - Users should be able to create accounts with usernames and passwords.
+	   - Implement a basic authentication mechanism to verify users' identities.
+
+	(IMP) 2. User-to-User Messaging:**
+	   - Users can send and receive text messages in real-time.
+	   - Messages should be displayed in a chat-like interface.
+
+	(IMP) 3. Group Messaging:**
+	   - Users can create and join group chats.
+	   - Group chats allow multiple users to communicate in a shared conversation.
+
+	4. Presence Status:**
+	   - Users can set their online, offline, or busy status.
+	   - Other users can see the status of their contacts.
+
+	5. Contact Management:**
+	   - Users can add, remove, and manage contacts.
+	   - Contacts can be organized into lists or groups.
+
+	6. Message History:**
+	   - The app should store and display message history, allowing users to view previous conversations.
+
+	7. Notifications:**
+	   - Implement notifications to alert users of new messages when the app is not in focus.
+
+	8. Emojis and File Sharing:**
+	   - Allow users to send emojis or other multimedia elements.
+	   - Implement basic file sharing for images, documents, etc.
+
+	(IMP) 9. Security:**
+	   - Use encryption to protect messages in transit.
+	   - Implement basic security practices to prevent unauthorized access to messages.
+
+	10. Cross-Platform Compatibility:**
+		- Develop clients for multiple platforms (e.g., desktop, web, mobile) to facilitate communication between users using different devices.
+
+	(NEXT-IMP) 11. User Interface (UI):**
+		- Design an intuitive and user-friendly UI to facilitate messaging and interaction.
+
+	12. Error Handling and Reliability:**
+		- Implement error handling to deal with network issues and ensure message delivery reliability.
+
+	13. Logging and Debugging:**
+		- Include logging and debugging features to help with troubleshooting and monitoring.
+
+	14. Offline Messaging:**
+		- Implement the ability to send messages when the recipient is offline, with the message delivered when they come online.
+
+	15. Scalability:**
+		- Design the app architecture to handle a growing number of users and messages.
+
+	(NEXT-IMP) 16. Testing:**
+		- Develop unit tests and integration tests to ensure the app functions as expected.
+
+	(NEXT-IMP) 17. Documentation:**
+		- Create documentation that explains how to use the app, its architecture, and any APIs for future development.
+
+	(NEXT-IMP) 18. Deployment:**
+		- Deploy the server component on a remote host or cloud server for accessibility.
+
+	(NEXT-IMP) 19. Chat History Export:**
+		- Allow users to export their chat history for backup or reference.
+
+	(NEXT-IMP) 20. Search Functionality:**
+		- Implement a search feature to easily find and navigate through past conversations.
+
+	**21. User Profiles:**
+		- Enable users to set profile pictures and add personal information to their profiles.
+
